@@ -111,9 +111,10 @@ extension Sceleton {
     }
 }
 
-
+#if DEBUG
 struct SkeletonView_Previews: PreviewProvider {
     static var previews: some View {
         SkeletonView()
     }
 }
+#endif
